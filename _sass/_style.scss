@@ -1,0 +1,43 @@
+.lead {
+  font-size: 1.3em;
+}
+
+.vertical-out {
+  display: table;
+}
+.vertical-in {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#intro {
+  background: #444;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  
+  h1, h2, h3, h4 {
+    color: inherit;
+  }
+  
+  .vertical-out {
+    min-height: 80vh;
+  }
+  
+  .lead {
+    font-family: 'Quicksand', Arial, sans-serif;
+  }
+}
+
+#cto {
+  box-shadow: inset 0px 10px 13px -10px #333;
+  text-align: center;
+
+  @media (min-width: $screen-md-min) { 
+    padding: 70px 0;
+  }
+
+  #registration-form {
+    padding: 2em 0;
+  }
+}
