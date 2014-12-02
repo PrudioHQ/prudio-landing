@@ -38,16 +38,21 @@
   }
 }
 
-#cto {
+#cta {
   box-shadow: inset 0px 10px 13px -10px #333;
+  padding: 35px 0;
   text-align: center;
-
-  @media (min-width: $screen-sm-min) { 
-    padding: 70px 0;
-  }
-
+  
 }
 
 #features {
+  padding: 35px 0;
+  text-align: center;
+}
+
+#engage {
+  background: #444;
+  color: white;
+  padding: 35px 0;
   text-align: center;
 }
