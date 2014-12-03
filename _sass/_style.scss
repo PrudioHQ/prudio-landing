@@ -14,8 +14,26 @@
   vertical-align: middle;
 }
 
+#registration-form {
+  background: white;
+  border-radius: $border-radius-large;
+  margin: 2em 0;
+  width: 100%;
+  input, button {
+    background: none;
+    border: none;;
+    &:hover, &:focus {
+      box-shadow: none;
+    }
+  }
+  button span {
+    color: #ccc;
+    font-size: 0.7em;
+  }
+}
+
 #intro {
-  background: #444;
+  background: $brand-primary;
   color: white;
   padding: 20px 0;
   text-align: center;
@@ -31,18 +49,17 @@
   .lead {
     font-family: 'Quicksand', Arial, sans-serif;
   }
-  
+
   #registration-form {
-    padding: 2em 0;
-    width: 100%;
+    box-shadow: 0 4px 0 #bbb;
   }
+
 }
 
 #cta {
   box-shadow: inset 0px 10px 13px -10px #333;
   padding: 35px 0;
   text-align: center;
-  
 }
 
 #features {
