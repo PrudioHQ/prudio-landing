@@ -6,6 +6,10 @@
   font-size: 1.3em;
 }
 
+.success {
+  color: $brand-success !important;
+}
+
 .vertical-out {
   display: table;
 }
@@ -14,7 +18,7 @@
   vertical-align: middle;
 }
 
-#registration-form {
+.registration-form {
   background: white;
   border-radius: $border-radius-large;
   margin: 2em 0;
@@ -50,7 +54,7 @@
     font-family: 'Quicksand', Arial, sans-serif;
   }
 
-  #registration-form {
+  .registration-form {
     box-shadow: 0 4px 0 #bbb;
   }
 
