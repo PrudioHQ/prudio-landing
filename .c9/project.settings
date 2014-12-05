@@ -1,41 +1,42 @@
 {
-    "run": {
-        "@path": "/.c9/runners",
-        "configs": {
-            "json()": {
-                "Preview": {
-                    "debug": true,
-                    "command": "jekyll serve --watch --port $PORT --host $IP",
-                    "runner": "Shell command",
-                    "name": "Preview"
-                }
-            },
-            "@inited": "true"
-        }
-    },
     "ace": {
+        "@guessTabSize": "true",
         "@newLineMode": "unix",
         "@tabSize": 2,
-        "@useSoftTabs": "true",
-        "@guessTabSize": "true"
+        "@useSoftTabs": "true"
+    },
+    "build": {
+        "@builder": "auto",
+        "@path": "/.c9/builders",
+        "@saveall": "true"
     },
     "find.nak": {
         "@searchLimit": 100
     },
     "language": {
-        "@warnLevel": "info",
         "@instanceHighlight": "true",
         "@undeclaredVars": "true",
-        "@unusedFunctionArgs": "false"
+        "@unusedFunctionArgs": "false",
+        "@warnLevel": "info"
     },
-    "build": {
-        "@path": "/.c9/builders",
-        "@saveall": "true",
-        "@builder": "auto"
+    "run": {
+        "@path": "/.c9/runners",
+        "configs": {
+            "@inited": "true",
+            "json()": {
+                "Preview": {
+                    "command": "jekyll serve --watch --port $PORT --host $IP",
+                    "debug": true,
+                    "default": true,
+                    "name": "Preview",
+                    "runner": "Shell command"
+                }
+            }
+        }
     },
     "share": {
-        "@preview": false,
         "@app": false,
+        "@preview": false,
         "@useOwnerSettings": false
     }
 }
