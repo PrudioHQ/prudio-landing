@@ -43,7 +43,7 @@
   text-align: center;
   
   h1, h2, h3, h4 {
-    color: inherit;
+    color: white;
   }
   
   .vertical-out {
@@ -55,7 +55,7 @@
   }
 
   .registration-form {
-    box-shadow: 0 4px 0 #bbb;
+    box-shadow: 0 4px 0 $flat-orange-2;
   }
 
 }
@@ -76,7 +76,7 @@
 }
 
 #engage {
-  background: #444;
+  background: $flat-concrete;
   color: white;
   padding: 35px 0;
   text-align: center;
