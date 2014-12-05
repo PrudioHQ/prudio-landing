@@ -4,7 +4,7 @@ $(document).ready(function(){
     e.preventDefault();
 
     $.ajax({
-        url: 'YOUR URL',
+        url: '//prud.us9.list-manage.com/subscribe/post?u=39ef96cac4b6f34b25ebb0ed0&amp;id=fd630d7a55',
         type: 'GET',
         data: $('#your-form').serialize(),
         dataType: 'json',
