@@ -1,0 +1,83 @@
+.container {
+  max-width: 960px;
+}
+
+.lead {
+  font-size: 1.3em;
+}
+
+.success {
+  color: $brand-success !important;
+}
+
+.vertical-out {
+  display: table;
+}
+.vertical-in {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.registration-form {
+  background: white;
+  border-radius: $border-radius-large;
+  margin: 2em 0;
+  width: 100%;
+  input, button {
+    background: none;
+    border: none;;
+    &:hover, &:focus {
+      box-shadow: none;
+    }
+  }
+  button span {
+    color: #ccc;
+    font-size: 0.7em;
+  }
+}
+
+#intro {
+  background: $brand-primary;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  
+  h1, h2, h3, h4 {
+    color: white;
+  }
+  
+  .vertical-out {
+    min-height: 80vh;
+  }
+  
+  .lead {
+    font-family: 'Quicksand', Arial, sans-serif;
+  }
+
+  .registration-form {
+    box-shadow: 0 4px 0 $flat-orange-2;
+  }
+
+}
+
+#cta {
+  box-shadow: inset 0px 10px 13px -10px #333;
+  padding: 35px 0;
+  text-align: center;
+}
+
+#features {
+  padding: 35px 0;
+  text-align: center;
+  
+  .primary-image {
+    border-radius:128px;
+  }
+}
+
+#engage {
+  background: $flat-concrete;
+  color: white;
+  padding: 35px 0;
+  text-align: center;
+}

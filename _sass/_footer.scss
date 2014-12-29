@@ -1,0 +1,15 @@
+footer, .site-footer {
+  background: darken($flat-concrete, 40%);
+  padding: 1em 0;
+  font-family: 'Quicksand', Arial, sans-serif;
+  font-weight: bold;
+  a {
+    color: $flat-concrete;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    &:hover, &:active, &:focus {
+      color: lighten($flat-concrete, 15%);
+      text-decoration: none;
+    }
+  }
+}
